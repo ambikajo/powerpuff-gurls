@@ -9,10 +9,10 @@ let buttercup;
 let names;
 
 function preload() {
-    herb = loadJSON('../assets/herbs.json')
+    herb = loadJSON('https://raw.githubusercontent.com/ambikajo/powerpuff-gurls/master/assets/herbs.json')
     descriptions = loadJSON('https://raw.githubusercontent.com/ambikajo/powerpuff-gurls/master/assets/descriptions.json')
-    utonium = loadJSON('../assets/chemicals.json')
-    names = loadJSON('../assets/pregnancy.json')
+    utonium = loadJSON('https://raw.githubusercontent.com/ambikajo/powerpuff-gurls/master/assets/chemicals.json')
+    names = loadJSON('https://raw.githubusercontent.com/ambikajo/powerpuff-gurls/master/assets/pregnancy.json')
 }
 
 function setup() {
