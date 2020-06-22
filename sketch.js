@@ -10,7 +10,7 @@ let names;
 
 function preload() {
     herb = loadJSON('../assets/herbs.json')
-    descriptions = loadJSON('../assets/descriptions.json')
+    descriptions = loadJSON('https://raw.githubusercontent.com/ambikajo/powerpuff-gurls/master/assets/descriptions.json')
     utonium = loadJSON('../assets/chemicals.json')
     names = loadJSON('../assets/pregnancy.json')
 }
