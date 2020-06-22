@@ -9,10 +9,10 @@ let buttercup;
 let names;
 
 function preload() {
-    herb = loadJSON('/assets/herbs.json')
-    descriptions = loadJSON('/assets/descriptions.json')
-    utonium = loadJSON('/assets/chemicals.json')
-    names = loadJSON('/assets/pregnancy.json')
+    herb = loadJSON('../assets/herbs.json')
+    descriptions = loadJSON('../assets/descriptions.json')
+    utonium = loadJSON('../assets/chemicals.json')
+    names = loadJSON('../assets/pregnancy.json')
 }
 
 function setup() {
